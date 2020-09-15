@@ -1,5 +1,5 @@
-const abrirBn = document.querySelector('abrir-pantalla-completa');
-const salirBn = document.querySelector('salir-pantalla-completa');
+const abrirBn = document.querySelector('#abrir-pantalla-completa');
+const salirBn = document.querySelector('#salir-pantalla-completa');
 
 
 salirBn.addEventListener('click', cerrarPantallaCompleta);

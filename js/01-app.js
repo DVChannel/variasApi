@@ -10,7 +10,7 @@ notificar.addEventListener('click',()=>{
 const verNtcn = document.querySelector('#verNotificacion');
 verNotificacion.addEventListener('click',()=>{
     if (Notification.permission === 'granted'){
-        const notificacion =  new Notification('Esta es la notificacion', 
+        new Notification('Esta es la notificacion', 
         {icon: 'img/ccj.png',
     body: 'Channel está cerca de ti'});
     notificacion.onclick = function() {
